@@ -11,6 +11,7 @@ body {
 header {
   width: 100%;
   height: 60px;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.21);
 }
 
 .menu-icon {
@@ -218,19 +219,21 @@ header {
   border: none;
   font-family: 'lato';
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* featured cooks section */
 .cooks {
   width: 100%;
-  height: 100%;
+  height:  auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
   gap: 16px;
   font-family: 'lato';
+  padding-bottom: 20px;
 }
 
 .cooks-grid-container {
@@ -306,16 +309,42 @@ header {
  .detail-p {
   font-size: 12px;
   line-height: 15px;
-  /* padding-bottom: 5px; */
   width: 90%;
   font-weight: 400;
+}
+/* partner section */
+.partner-section {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+background-color: #272A31;
+gap: 20px;
+color:#d3d3d3;
+padding-top: 20px;
+font-family: 'lato';
+padding-bottom: 30px ;
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.partner-image-container {
+  width: 90px;
+}
+
+.partner-image-container img {
+  width: 100%;
+  height: auto;
 }
 
 
 
-
-
 @media (min-width: 768px) {
+
 /* navigation bar */
 .mobile-menu {
     display: none;
@@ -516,5 +545,14 @@ header {
     font-size: 13.5px;
     line-height: 16px;
   }
-  
+
+  /* partner section */
+  .partners {
+    flex-direction: row;
+  }
+
+  .partner-image-container {
+    width: 130px;
+  }
+
 }
