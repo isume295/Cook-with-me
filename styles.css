@@ -140,7 +140,7 @@ header {
 /* program section */
 .program {
   width: 100%;
-  height:  auto;
+  height: auto;
   background-color: #272A31;
   display: flex;
   flex-direction: column;
@@ -158,7 +158,12 @@ header {
   gap: 20px;
 }
 
-.main-program-container h2 {
+/* .main-program-container h2 {
+  font-size: 16px;
+  font-weight: 400;
+} */
+
+.title {
   font-size: 16px;
   font-weight: 400;
 }
@@ -215,6 +220,100 @@ header {
   font-size: 16px;
   margin-bottom: 20px;
 }
+
+/* featured cooks section */
+.cooks {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  gap: 16px;
+  font-family: 'lato';
+}
+
+.cooks-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+.cook-title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cook-flex-container {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.img-container {
+  width: 261px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cook-img {
+  width: 90%;
+  padding-bottom: 1rem;
+}
+
+.cook-img img {
+  width: 100%;
+  height: auto;
+  position: center;
+}
+
+.cook-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: 'lato';
+  color: #272A31;
+  width: 100%;
+ 
+}
+
+.cook-details h5 {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.detail-p1 {
+  font-size: 12px;
+  line-height: 15px;
+  color: #ec5242;
+  font-style: italic;
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+
+.cook-line {
+  width: 35px;
+  border-top: #272A31 solid 1px;
+}
+
+ .detail-p {
+  font-size: 12px;
+  line-height: 15px;
+  /* padding-bottom: 5px; */
+  width: 90%;
+  font-weight: 400;
+}
+
+
+
+
 
 @media (min-width: 768px) {
 /* navigation bar */
@@ -345,45 +444,25 @@ header {
   }
 
   /* program section  */
-  /* .program{
-    width: 100%;
-    height:  auto;
-    background-color: #272A31;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #E6E6E6;
-  } */
-
-  /* .main-program-container {
-    width: 100%;
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #E6E6E6;
-    gap: 20px;
+  /* .main-program-container h2 {
+    font-size: 23px;
+    font-weight: 400;
   } */
   
-  .main-program-container h2 {
+  .title {
     font-size: 23px;
     font-weight: 400;
   }
-  
-  /* .line {
-    width: 35px;
-    border-top: #ec5242 solid 2px;
-  } */
-  
+ 
   .programs {
       width: 80%;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       gap: 5px;
-     
+    
   }
-  
+
   .program-list {
     width: 18%;
     height: 200px;
@@ -395,12 +474,7 @@ header {
     padding: 0 1rem;
     text-align: center;
   }
-  
-  /* .program-icon {
-      color: white !important;
-      font-size: 20px;
-  } */
-  
+
   .program-list h4 {
     color: #ec5242;
     font-size: 17px;
@@ -412,4 +486,35 @@ header {
     color: rgba(255, 255, 255, 0.5);
   }
 
+  /* featured cooks section */
+  .cooks-grid-container {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10rem;
+    gap: 2rem;
+  }
+
+  .cook-flex-container {
+    padding-top: 15px;
+  }
+
+  .cook-title {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .cook-details h5 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  
+  .detail-p1 {
+    font-size: 13.5px;
+    line-height: 16px;
+  }
+
+  .detail-p {
+    font-size: 13.5px;
+    line-height: 16px;
+  }
+  
 }
