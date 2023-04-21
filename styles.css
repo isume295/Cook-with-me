@@ -79,7 +79,6 @@ header {
   height: 75%;
 }
 
-
 .home-content-container {
   padding: 4rem  10px 10px 10px;
   width: 100%;
@@ -87,7 +86,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
 }
 
 .home-heading {
@@ -104,7 +102,7 @@ header {
 .txt-bg {
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: url('img/text-bg.jpg');
+  background-image: url('img/Group1.svg');
   color: transparent;
  }
 
@@ -161,11 +159,6 @@ header {
   gap: 20px;
 }
 
-/* .main-program-container h2 {
-  font-size: 16px;
-  font-weight: 400;
-} */
-
 .title {
   font-size: 16px;
   font-weight: 400;
@@ -177,12 +170,11 @@ header {
 }
 
 .programs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-   
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .program-list {
@@ -197,8 +189,8 @@ header {
 }
 
 .program-icon {
-    color: white !important;
-    font-size: 20px;
+  color: white !important;
+  font-size: 20px;
 }
 
 .program-list h4 {
@@ -213,7 +205,6 @@ header {
   color: rgba(255, 255, 255, 0.5);
 }
 
-
 .program-btn {
   padding: 15px 40px;
   color: white;
@@ -225,6 +216,14 @@ header {
   margin-bottom: 30px;
 }
 
+.svg-contain {
+  width: 26%;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
 /* featured cooks section */
 .cooks {
   width: 100%;
@@ -348,7 +347,7 @@ padding-bottom: 40px;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 30px 40px;
+  padding: 40px 40px;
   font-family: 'lato';
 }
 
@@ -359,7 +358,7 @@ padding-bottom: 40px;
   color: #272A31;
   font-size: 14px;
   line-height: 16px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -446,12 +445,14 @@ header {
 }
 
 .logo {
-    font-size: 20px;
-    font-family: 'lato';
-    line-height: 20px;
-    font-weight: 600;
-    color: #272A31;
-    display: block;
+     display: flex;
+     width: 20%;
+
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
 }
 
 /* home section */
@@ -470,7 +471,7 @@ header {
 }
 
 .home-content-container {
-  width: 55%;
+  width: 65%;
   padding-left: 15%;
 }
 
@@ -540,7 +541,7 @@ header {
 
   .program-list h4 {
     color: #ec5242;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .program-list p {
@@ -587,6 +588,13 @@ header {
 
   .partner-image-container {
     width: 130px;
+  }
+
+  .footer-contetnt-container {
+    font-size: 15.5px;
+    line-height: 17px;
+    font-weight: 400;
+    width: 45%;
   }
 
 }
