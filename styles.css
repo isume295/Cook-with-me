@@ -135,14 +135,14 @@ a {
   font-size: 15px;
   line-height: 22px;
   font-weight: 400;
-  color: hsl(222, 11%, 17%);
+  color: rgb(39, 41, 48);
 }
 
 .detail-2 h2 {
   font-weight: 800;
   font-size: 29px;
   line-height: 40px;
-  color: hsl(222, 11%, 17%);
+  color: rgb(39, 41, 48);
 }
 
 /* program section */
