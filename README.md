@@ -9,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [:rocket: Live Demo](#live-demo)
+  - [walkthrough](#walkthrough)
 - [:computer: Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -21,7 +22,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [🙏 walkthrough](#walkthrough)
 - [:memo: License](#license)
 
 # :book: [Cook With me] <a name="about-project"></a>
@@ -65,6 +65,14 @@
 <!-- LIVE DEMO -->
 ## :rocket: Live Demo <a name="live-demo"></a>
 - [Live Demo Link](https://isume295.github.io/capstone-1/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- walkthrough -->
+
+##  Walkthrough <a name="walkthrough"></a>
+
+Feel free to check the [walkthrough video page](https://www.loom.com/share/3a1ed8cf22274d2f8a8cc7d0b886a679).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -165,16 +173,6 @@ Design by Cindy Shin
 Behance: [Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- walkthrough -->
-
-##  Walkthrough <a name="walkthrough"></a>
-
-Feel free to check the [walkthrough video page](https://www.loom.com/share/3a1ed8cf22274d2f8a8cc7d0b886a679).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 
