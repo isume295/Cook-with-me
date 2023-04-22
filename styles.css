@@ -362,6 +362,106 @@ svg {
   font-weight: 400;
 }
 
+.ab-footer {
+  background-color: rgb(39, 42, 49);
+  color: white;
+}
+
+.about {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+
+.about-content-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.ab {
+  text-align: center;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  width: 70%;
+  text-align: center;
+}
+
+.about-logo {
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+}
+
+.logo-detail {
+  color: rgb(39, 42, 49);
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  width: 70%;
+}
+
+.logo-container {
+  width: 85%;
+  margin: 20px;
+  padding: 20px;
+  border: solid  rgb(230, 230, 230) 2px;
+  margin-bottom: 40px;
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+}
+
+.abt-img-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.abt-img-contain .see1 {
+  width: 80%;
+  height: 200px;
+  background-image: url(img/see3.jpg);
+  background-size: cover;
+}
+
+.abt-img-contain .see2 {
+  width: 80%;
+  height: 200px;
+  background-image: url(img/see4.jpg);
+  background-size: cover;
+}
+
+.abt-bg-color {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 82, 66, 0.6);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   /* navigation bar */
   .mobile-menu {
@@ -457,11 +557,29 @@ svg {
     background-position: right;
   }
 
+  .about {
+    height: 100%;
+    background-image: url(img/bg-2.jpg);
+    background-size: cover;
+    background-position: right;
+    padding: 0;
+  }
+
   .bg-color {
     width: 100%;
     height: 100%;
     background-color: rgba(211, 211, 211, 0.8);
     backdrop-filter: blur(4px);
+  }
+
+  .about-bg-color {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(211, 211, 211, 0.8);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .home-content-container {
@@ -491,7 +609,7 @@ svg {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    color: rgb(140, 168, 235);
+    color: rgb(39, 42, 49);
   }
 
   .detail-2 h2 {
@@ -578,9 +696,52 @@ svg {
   }
 
   .footer-contetnt-container {
-    font-size: 15.5px;
+    font-size: 13px;
     line-height: 17px;
     font-weight: 400;
     width: 45%;
+  }
+
+  .about-content-container {
+    width: 70%;
+    height: 100%;
+  }
+
+  .ab {
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-title {
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+  }
+
+  .logo-container {
+    width: 50%;
+  }
+
+  .logo-detail {
+    width: 60%;
+  }
+
+  .abt-img-contain {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 70%;
+  }
+
+  .abt-img-contain .see1 {
+    height: 300px;
+  }
+
+  .abt-img-contain .see2 {
+    height: 300px;
   }
 }
