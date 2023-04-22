@@ -71,7 +71,7 @@
 
 ##  Walkthrough <a name="walkthrough"></a>
 
-Feel free to check the [walkthrough video page](https://www.loom.com/share/3a1ed8cf22274d2f8a8cc7d0b886a679).
+Feel free to check the [walkthrough video page](https://www.loom.com/share/5c8654876b5b48578663128e88d1b2b6).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
