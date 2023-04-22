@@ -179,5 +179,5 @@ Feel free to check the [walkthrough video page]().
 <!-- LICENSE -->
 
 ## :memo: License <a name="license"></a>
-This project is [MIT]( ) licensed.
+This project is [MIT](https://github.com/isume295/capstone-1/blob/deploy-page/LICENCE.md) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
