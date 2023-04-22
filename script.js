@@ -6,6 +6,15 @@ menu.addEventListener('click', () => {
   nav.classList.toggle('mobile-menu');
 });
 
+const links = document.querySelectorAll('.nav ul li a');
+links.forEach((link) => {
+  link.addEventListener('click', () => {
+    menu.classList.toggle('fa-bars');
+    menu.classList.toggle('fa-xmark');
+    nav.classList.toggle('mobile-menu');
+  });
+});
+
 const data = [
   {
     name: 'Sumeya Ibrahim',
