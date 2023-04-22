@@ -170,7 +170,7 @@ Behance: [Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 ##  Walkthrough <a name="walkthrough"></a>
 
-Feel free to check the [walkthrough video page]().
+Feel free to check the [walkthrough video page](https://www.loom.com/share/3a1ed8cf22274d2f8a8cc7d0b886a679).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
