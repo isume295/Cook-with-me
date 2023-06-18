@@ -64,7 +64,7 @@
 
 <!-- LIVE DEMO -->
 ## :rocket: Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://isume295.github.io/capstone-1/)
+- [Live Demo Link](https://isume295.github.io/Cook-with-me/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- walkthrough -->
